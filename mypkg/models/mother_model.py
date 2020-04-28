@@ -55,9 +55,11 @@ class Daughter(Mother, Father):
 class Friend:
     pass
 
+
 def greet_mother(mother: Mother):
     print("Hello mother")
     mother.do_work()
+
 
 def greet_father(father: Father):
     print("papa")
